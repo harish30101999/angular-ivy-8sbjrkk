@@ -1,12 +1,12 @@
-<body style="background-color:rgb(53, 229, 235)">
+<body style="background-color:rgb(53, 229, 235)"  >
 <img class="bg" [src]="myImage">
 <div class="header" style="text-align:center">
-  <h1 style="color:blue">FLIGHT BOOKING</h1>
+  <h1 style="color:blue" style="font-style:italic">FLIGHT BOOKING</h1>
   </div>
   <form #f="ngForm" name="form" (ngSubmit)="addflight()" class="row g-12">
   <div>
     <div class="col-12" style="text-align:center">
-      <label for="firstname" style="color:blue">FIRST NAME</label>&nbsp;
+      <label for="firstname" style="color:blue" style="font-style:oblique">FIRST NAME</label>&nbsp;
       <input
         type="text"
         id="fname"
@@ -16,7 +16,7 @@
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="lastname" style="color:blue">LAST NAME</label>&nbsp;
+      <label for="lastname" style="color:blue" style="font-style:oblique">LAST NAME</label>&nbsp;
       <input
         type="text"
         id="lname"
@@ -26,18 +26,18 @@
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="email" style="color:blue">EMAIL ID</label>&nbsp;
+      <label for="email" style="color:blue" style="font-style:oblique">EMAIL ID</label>&nbsp;
       <input type="email" id="email" name="email" [(ngModel)]="model.email" />
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="dob" style="color:blue">DOB</label>&nbsp;
+      <label for="dob" style="color:blue" style="font-style:oblique">DOB</label>&nbsp;
       <input type="date" id="dob" name="dob" [(ngModel)]="model.dob" />
     </div>
     <br />
     
     <div class="col-12" style="text-align:center">
-    <label for="gender" style="color:blue" > GENDER :: </label>
+    <label for="gender" style="color:blue" style="font-style:oblique"> GENDER :: </label>
       <label for="male">Male</label>&nbsp;
       <input
         type="radio"
@@ -67,7 +67,7 @@
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="pickup" style="color:blue">PICKUP</label>&nbsp;
+      <label for="pickup" style="color:blue" style="font-style:oblique">PICKUP</label>&nbsp;
       <select
         name="pickup"
         id="pickup"
@@ -82,12 +82,12 @@
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="pdate" style="color:blue">PICKUP DATE</label>&nbsp;
+      <label for="pdate" style="color:blue" style="font-style:oblique">PICKUP DATE</label>&nbsp;
       <input type="date" id="pdate" name="pdate" [(ngModel)]="model.pdate" />
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="drop" style="color:blue">DROP</label>&nbsp;
+      <label for="drop" style="color:blue" style="font-style:oblique">DROP</label>&nbsp;
       <select
         name="drop"
         id="drop"
@@ -102,7 +102,7 @@
     </div>
     <br />
     <div class="col-12" style="text-align:center">
-      <label for="seat" style="color:blue">SEAT</label>&nbsp;
+      <label for="seat" style="color:blue" style="font-style:oblique">SEAT</label>&nbsp;
       <select
         name="seat"
         id="seat"
@@ -117,7 +117,7 @@
     </div>
     <br />
     <div style="text-align:center" >
-    <label style="color:blue">INSURANCE</label>
+    <label style="color:blue" style="font-style:oblique">INSURANCE</label>
   </div>
     <div class="col-12" style="text-align:center" >
     
